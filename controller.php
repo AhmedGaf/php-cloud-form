@@ -9,8 +9,8 @@ $number = $_POST['number'];
 
 
 $dbname='formulaire' ;
-$dbuser='hassen' ;
-$dbpass='Password1' ;
+$dbuser='gafsi' ;
+$dbpass='Password123' ;
 $dbhost='10.0.1.4' ;
 
 
