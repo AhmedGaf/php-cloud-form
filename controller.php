@@ -11,7 +11,7 @@ $number = $_POST['number'];
 $dbname='formulaire' ;
 $dbuser='gafsi' ;
 $dbpass='Password123' ;
-$dbhost='10.0.1.4' ;
+$dbhost='dbformulaire.mysql.database.azure.com' ;
 
 
 // Database connection
