@@ -6,8 +6,16 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 $number = $_POST['number'];
 
+
+
+$dbname='formulaire' ;
+$dbuser='hassen' ;
+$dbpass='Password1' ;
+$dbhost='10.0.1.4' ;
+
+
 // Database connection
-$conn = new mysqli('localhost', 'root', '', 'formulaire');
+$conn = new mysqli($dbhost,$dbuser, $dbpass,$dbname);
 if ($conn->connect_error) {
   echo "$conn->connect_error";
   die("Connection Failed : " . $conn->connect_error);
