@@ -9,9 +9,9 @@ $number = $_POST['number'];
 
 
 $dbname='formulaire' ;
-$dbuser='gafsi' ;
-$dbpass='Password123' ;
-$dbhost='dbformulaire.mysql.database.azure.com' ;
+$dbuser='hassen' ;
+$dbpass='Password1234' ;
+$dbhost='formdb.mysql.database.azure.com' ;
 
 
 // Database connection
